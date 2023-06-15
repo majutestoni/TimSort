@@ -1,21 +1,30 @@
 
 # TimSort
 
-O TimSort nasceu em 2002 por Tim Peters
+- O TimSort nasceu em 2002 por Tim Peters, que por tal motivo recebeu o nome de Tim. 
 
-Ele vem de outros dois tipos de sort:
+- Esta forma de ordenação vem de outras duas muito famosas:
 ```bash
   mergeSort
 ```
 ```bash
   insertSort
 ```
+## minRun
+O ponto de partidade da ordenação é o calculo da minRun, que pega como base N(tamanho do vetor) e segue alguns principios:
+1. O valor de minrun não deve ser tão grande → minrun < 256;
+2. O valor de minrun não deve ser tão pequeno → minrun > 8; 
+3. Seria bom se N / minrun fosse uma potência de 2 (ou perto disso).
+4. Após testes diários, verificou-se que varios casos utilizando a diferença entre 32 e 64 (ou seja, igual a 32)
 
- O código inicia calculando minRun, gerando subVetores(as runs), cada subVetore é organizado com insertSort para posteriomente ser unido utilizando mergeSort 
+** codigo **
 
-subVetores = runs
+## InserSort
+ 
+ Após a minRun definida, o vetor mãe passa a ser separado e varios outros com o tamanho do calculo e os mesmos são organizados utilizando InsertSort.
+ 
+ ## MergeSort
 
-Atualmente é o principal metodo de ordenação em python e em Arrays
 
 
 
