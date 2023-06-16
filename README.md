@@ -32,14 +32,14 @@ O ponto de partidade da ordenação é o calculo da minRun, que pega como base N
  
  Após a minRun definida, o vetor mãe passa a ser separado e varios outros com o tamanho do calculo e os mesmos são organizados utilizando InsertSort.
  
- ## MergeSort
+## MergeSort
 
-
+E por ultimo os subvetores (ou minRuns) passar a ser unido utilizando a ordenação MergeSort.
 
 
 ## Referencias
 
 - [skerritt](https://skerritt.blog/timsort/)
 - [ronanlopes](https://ronanlopes.me/implementacao-em-python-e-analise-dos-algoritmos-de-ordenacao-insertionsort-mergesort-e-timsort/)
-- [rafinhadufluxo](https://github.com/rafinhadufluxo/Timsort-Search/blob/master/README.md)
+- [video de simulação](https://www.youtube.com/watch?v=NVIjHj-lrT4&ab_channel=TimoBingmann)
 
