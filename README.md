@@ -46,5 +46,6 @@ E por ultimo os subvetores (ou minRuns) passar a ser unido utilizando a ordenaç
 
 - [skerritt](https://skerritt.blog/timsort/)
 - [ronanlopes](https://ronanlopes.me/implementacao-em-python-e-analise-dos-algoritmos-de-ordenacao-insertionsort-mergesort-e-timsort/)
+- [geeksforgeeks](https://www.geeksforgeeks.org/timsort/)
 - [video de simulação](https://www.youtube.com/watch?v=NVIjHj-lrT4&ab_channel=TimoBingmann)
 
