@@ -28,8 +28,6 @@ O ponto de partidade da ordenação é o calculo da minRun, que pega como base N
 	}
 ```
 
-** codigo **
-
 ## InserSort
  
  Após a minRun definida, o vetor mãe passa a ser separado e varios outros com o tamanho do calculo e os mesmos são organizados utilizando InsertSort.
