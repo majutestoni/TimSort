@@ -39,7 +39,7 @@ E por ultimo os subvetores (ou minRuns) passar a ser unido utilizando a ordenaç
 
 ## Utilizado em:
 
- Hoje em dia o TimSort é o principal metodo de ordenação utilizado em Python e em Arrays.sort() do Java(front [freeCode camp](https://www.freecodecamp.org/portuguese/news/algoritmos-de-ordenacao-explicados-com-exemplos-em-python-java-e-c/)) por ser extremamente eficaz e rapido.
+ Hoje em dia o TimSort é o principal metodo de ordenação utilizado em Python e em Arrays.sort() do Java(font [freeCode camp](https://www.freecodecamp.org/portuguese/news/algoritmos-de-ordenacao-explicados-com-exemplos-em-python-java-e-c/)) por ser extremamente eficaz e rapido.
 
 
 ## Referencias
